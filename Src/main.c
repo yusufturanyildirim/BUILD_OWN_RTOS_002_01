@@ -31,23 +31,23 @@ int main(void)
 void blue_led_on(void)
 {
 	LED_BLUE_ON();
-	//printf("Motor is running\n");
 }
 
 void blue_led_off(void)
 {
 	LED_BLUE_OFF();
-	//printf("Motor is stopping\n");
 }
 
 void red_led_on(void)
 {
 	LED_RED_ON();
-	//printf("Motor is openning\n");
 }
 
 void red_led_off(void)
 {
 	LED_RED_OFF();
-	printf("Motor is closing\n");
 }
+
+
+
+
