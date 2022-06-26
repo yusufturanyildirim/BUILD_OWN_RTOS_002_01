@@ -9,11 +9,11 @@
  * Status Register. Configure these registers.
  */
 
-#define CTRL_EN				(1U<<0)
+#define CTRL_EN			(1U<<0)
 #define CTRL_TICK_IT		(1U<<1)
 #define CTRL_CLCKSRC		(1U<<2)
 #define CTRL_COUNT_FLAG		(1U<<16)
-#define MAX_DELAY			0xFFFFFFFFU
+#define MAX_DELAY		0xFFFFFFFFU
 
 volatile uint32_t g_curr_tick;
 volatile uint32_t g_curr_tick_prime;
