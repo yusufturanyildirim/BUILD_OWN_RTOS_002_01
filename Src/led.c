@@ -1,10 +1,10 @@
 #include "led.h"
 
 
-#define GPIOA_CLOCK (1U<<0)
-#define GPIOB_CLOCK (1U<<1)
-#define GPIOC_CLOCK (1U<<2)
-#define GPIOD_CLOCK (1U<<3)
+#define GPIOA_CLOCK 	(1U<<0)
+#define GPIOB_CLOCK 	(1U<<1)
+#define GPIOC_CLOCK 	(1U<<2)
+#define GPIOD_CLOCK 	(1U<<3)
 
 #define GREEN_BIT	(01U<<24)
 #define ORANGE_BIT	(01U<<26)
@@ -12,7 +12,7 @@
 #define BLUE_BIT 	(01U<<30)
 
 #define BLUE		(1U<<15)
-#define RED			(1U<<14)
+#define RED		(1U<<14)
 #define ORANGE		(1U<<13)
 #define GREEN		(1U<<12)
 
